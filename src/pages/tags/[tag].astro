@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogPost from '../../components/BlogPost.astro';
   
 //important to add for getStaticPaths if output = server inside astro.config.mjs
-//export const prerender = true;
+export const prerender = true;
 
 export async function getStaticPaths() {
     
